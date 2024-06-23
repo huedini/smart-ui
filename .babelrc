@@ -1,0 +1,12 @@
+{
+    "plugins": [
+        [
+            "import",
+            {
+                "libraryName": "smart-city-ui",
+                "libraryDirectory": "packages",
+                "style": true, // or 'css'
+            }
+        ]
+    ]
+}
