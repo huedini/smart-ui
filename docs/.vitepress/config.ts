@@ -3,7 +3,7 @@
  * @Author: Ni Jianhun
  * @Date: 2023-10-13 16:21:37
  * @LastEditors: Hu Yilin
- * @LastEditTime: 2024-06-23 14:41:09
+ * @LastEditTime: 2024-06-23 15:48:28
  */
 import { defineConfig } from 'vitepress'
 import { mdPlugin } from './config/plugins'
@@ -43,6 +43,10 @@ export default defineConfig({
             },
             { text: '上传文件', link: '/components/upload/base.md' },
             { text: '文件预览', link: '/components/SFilePreview/base.md' },
+            {
+              text: '图文拖拽组件',
+              link: '/components/image-text-draggable/base.md',
+            },
           ],
         },
       ],
